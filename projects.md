@@ -6,29 +6,24 @@ subtitle: Here are some of my more recent projects.
 
 # Forcefield
 
-**Campus security solution consisting of hardware button, mobile, and web apps**
+**Campus security solution consisting of hardware button, mobile and web apps**
 
 >![Forcefield Logo](/img/forcefield-iphone.png)
-_Forcefield Splash Page_
+*Forcefield Splash Page*
 
-When brainstorming ideas for an app, we wanted to try to improve the emergency poles commonly seen dotting the landscape of college campuses.  Since research shows these beacons are mostly ineffective at preventing abduction, as well as costly to install and maintain, we decided to create an app that would allow students to alert campus security of their location using their phone's GPS.
+With Forcefield, we set out to develop an alternative to the emergency poles commonly seen dotting the landscape of college campuses.  Research shows these beacons are mostly ineffective at preventing abduction, as well as being costly to install and maintain, so we decided to create an app that would allow students to alert campus security of their location using their phone's GPS.
 
 >![V.BTTN](/img/button.png)
-_V.BTTN Hardware Button_
+*V.BTTN Bluetooth Low Energy Device*
 
-We built our app around the [V.BTTN](http://www.vsnmobil.com/products/v-bttn-wearable-bluetooth-le-4-0-device), a wearable bluetooth low energy device.  The user registers with the app by selecting their school or institution and the button is paired with the app on the user's smartphone by holding the button for eight seconds.  After pairing, the app runs in the background and waits for a button press.  When the user feels they are in danger, they simply press the button.  The smartphone then transmits the user's location with web sockets, as well as database queries for record keeping.  The users' name, phone number, emergency start date and time, emergency end date and time (if applicable), as well as location updated every few seconds, are shown on the dashboard.
+We built Forcefield around the [V.BTTN](http://www.vsnmobil.com/products/v-bttn-wearable-bluetooth-le-4-0-device), a wearable Bluetooth Low Energy device.  The user registers with our app by selecting their school or other institution as well as inputting their contact information.  The button is then paired with the app by holding the button for eight seconds.  Once paired, the app runs in the background and waits for a button press.  When the user feels they are in danger, they simply press the button.  The smartphone then transmits the user's location with web sockets, as well as database queries for record keeping.  The users' name, phone number, emergency start date and time, emergency end date and time (if applicable), as well as location are rendered on the dashboard.  The location updates every few seconds and the officer has the option of setting resolved emergencies inactive as well as viewing a heat map of previous emergencies.
 
 >![Forcefield Dashboard](/img/forcefield-dashboard.png)
-_Security Officer Dashboard_
+*Security Officer Dashboard*
 
 [Click Here](http://forcefield.herokuapp.com/#/dashboard) to give the dashboard a try.  I've put some fake emergencies in our database for demonstration purposes.
 
-Our tech stack:
-* Angular
-* Ionic
-* Node/Express
-* MySQL
-* Socket.io
+Our tech stack: Angular, Ionic, Node/Express, MySQL, Socket.io
 
 [GitHub](https://github.com/MKS-Elixr/forcefield) | May 2016
 
