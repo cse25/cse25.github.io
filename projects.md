@@ -33,11 +33,17 @@ Tech Stack: Angular, Ionic, Node/Express, MySQL, Socket.io
 
 **Mobile application for classroom note sharing and collaboration** 
 
-...Content Coming Soon...
-
 >![Notesee Logo](/img/notesee-banner.png)
 
-_Notesee Logo_
+We decided to create a mobile application for students to share and organize their classroom notes.  One of the first things we discussed as a team was what we wanted our app to do at a high level.  The basics: A student signs into our app, creates a classroom, shares the join code with classmates, and they post notes to the classroom.  They post these notes by taking pictures with their smartphone camera and pressing upload in the app.  Stretch goals included: a tagging system for filtering notes by topic, upvotes and downvotes, optical character recognition (OCR) integration, note annotation, and public/private classroom toggle.  
+
+We deployed our app to an AWS EC2 instance running Ubuntu and used Amazon's S3 to store our images.  We decided to convert our images to base64 strings and store the URL returned from S3 so we could get faster performance and not store large images in our database directly.
+
+In the end, we ran out of time to implement many of our stretch goals but were satisfied with our final product, as it met all of our basic requirements and looked and felt quite polished.
+
+Screenshots coming soon!
+
+Tech Stack: Angular, Ionic, MySQL, AWS, S3
 
 [GitHub](https://github.com/MKS-PostgreSQL/notesee) | April 2016
 
