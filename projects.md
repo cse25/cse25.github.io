@@ -53,7 +53,15 @@ Tech Stack: Angular, Ionic, MySQL, AWS, S3
 
 **Web application for scheduling last minute events with friends**
 
-...Content Coming Soon...
+The premise for this app was that we inherit a legacy codebase from another group and be tasked with making improvements under a three to four day time constraint.  We had the opportunity to speak with the project's team prior to adopting their project to find out what features they would have liked to seen added, and gather any other pertenent information.  We were not permitted to ask them questions after this allotted time.
+
+We chose Open2 because we saw a lot of potential to enhance the user experience in this social media platform.  My primary responsibility was to add chat functionality.  The original app functioned by having users post an activity along with a date and time which would get broadcast to your circle of friends.  Users in your circle could then RSVP with a single click.  That being said, the app felt a bit limited so the chat feature was pretty essential. 
+
+I chose to implement a "global" chat among friends so the functionality would be similar to a group text.  This was accomplished with Socket.io and Angular.
+
+Screenshots coming soon!
+
+Tech Stack: Angular, MySQL, Node/Express, Socket.io
 
 [GitHub](https://github.com/MKS-PostgreSQL/open2) | April 2016
 
