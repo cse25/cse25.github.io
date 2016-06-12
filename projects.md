@@ -63,9 +63,15 @@ Tech Stack: Angular, Ionic, MySQL, AWS, S3
 
 **Web application to simulate stock trading and track portfolio over time**
 
-...Content Coming Soon...
+Trade Apprentice was an app I created under a 36 hour time constraint as part of our MVP (Minimum Viable Product) Project.  This was our first project at MakerSquare, after six weeks of 2-3 day sprints.  The idea was to see, as individuals, what the coolest thing we could build in under 36 hours, as well as expose us to iterative development methods.  
+
+I built a platform to allow hobbyist day traders to make "paper trades", ie simulated trades having no financial risk.  The user enters an amount to deposit in their account, click deposit, and then they're ready to trade!  Entering a valid stock symbol will provide up to date information on the stock.  You can then buy or sell shares and have the balance of shares be reflected in your portfolio.  Clicking "Refresh Portfolio" pings the API once for each entry in your portfolio and then updates the page with the latest price. 
 
 >![Trade Apprentice Screenshot](/img/trade-apprentice-screenshot.png)
+
+I quickly styled the app with the CSS framework Materialize to make it look presentable.  There are some features I would have loved to have implemented if time permitted.  For starters, having user accounts and persisting data would be a top priority.  A graph showing performance over time would be a close second.  Another direction one could take it would be making the app a competition over who can make the most money by trading in a fixed number of weeks.  In the end, making the app work was the first priority and I have had plenty of opportunities since to improve my Angular skills.
+
+Tech Stack: Angular, Node/Express, MarkIt API, Materialize
 
 [GitHub](https://github.com/cse25/trade-apprentice) | April 2016
 
