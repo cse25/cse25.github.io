@@ -19,8 +19,6 @@ We built Forcefield around the [V.BTTN](http://www.vsnmobil.com/products/v-bttn-
 >![Forcefield Dashboard](/img/forcefield-dashboard.png)
 *Security Officer Dashboard*
 
-Click [here](http://forcefield.herokuapp.com/#/dashboard) to give the dashboard a try.  I've inserted some fake emergencies in our database for demonstration purposes.
-
 What sets Forcefield apart from other personal safety apps is having easy access to your application through the hardware button.  In the case of other apps, having to unlock your smartphone, open your app and touch the screen can feel like an eternity when you're in danger.
 
 Tech Stack: Angular, Ionic, Node/Express, MySQL, Socket.io
