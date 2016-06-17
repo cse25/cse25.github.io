@@ -55,6 +55,9 @@ The premise for this app was for my team to inherit a legacy codebase from anoth
 
 We chose to inherit Open2 because we saw a lot of potential to enhance the user experience in this social media platform.  The original app functioned by having users post an activity along with a date and time which would get broadcast to select friends.  Users in the network could then RSVP with a single click.  That being said, the app felt a bit limited since it lacked a chat feature. Feeling that one was pretty essential, we decided it was a priority to implement.  The chat we added functioned similarly to a group text and was accomplished with Angular, Socket.io, and MySQL.  In addition, we added a map displaying the live location of users.  Lastly, we significantly refactored their HTML and JavaScript to abide by JS Standard.
 
+>![Open2 Dashboard](/img/open2-dashboard.png)
+*Open2 Dashboard*
+
 Tech Stack: Angular, MySQL, Node/Express, Socket.io
 
 [GitHub](https://github.com/MKS-PostgreSQL/open2) | April 2016
