@@ -64,6 +64,21 @@ Tech Stack: Angular, MySQL, Node/Express, Socket.io
 
 ---
 
+# FourSquare Photo Explorer
+
+**Web application for viewing FourSquare users' photos**
+
+I built this single page app to for a coding challenge whose requirement was to use Angular to make a request to a social API and display the results on the page.  The user enters a term in the search bar and is presented with the top ten results in Los Angeles. Clicking on a result displays a gallery of photos from FourSquare users.
+
+>![FourSquare Photo Explorer Dashboard](/img/foursquare-explorer.png)
+*FourSquare Photo Explorer Dashboard*
+
+Tech Stack: Angular, Bootstrap
+
+[GitHub](https://github.com/cse25/foursquare-photo-explorer) | July 2016
+
+---
+
 # Trade Apprentice
 
 **Web application to simulate stock trading and track portfolio over time**
