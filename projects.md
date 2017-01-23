@@ -14,7 +14,7 @@ I created a news aggregator as a chance to learn more about the React ecosystem 
 
 To handle authentication I used bcrypt to hash and salt passwords, JSON web tokens to verify authenticated users, and passport as authentication middleware. I used MongoDB to store my data and Mongoose to work with my data.
 
-![Favorites](/img/news-aggregator-favorites.png)
+![Favorites](/img/favorites.png)
 *Favorites*
 
 Tech Stack: React, Redux, Node, Express, MongoDB
