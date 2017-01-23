@@ -4,6 +4,26 @@ title: Projects
 subtitle: Here are some of my more recent projects.
 ---
 
+# News Aggregator
+
+**Get the latest news articles from 60 sources**
+
+I created a news aggregator as a chance to learn more about the React ecosystem and to create a simple way to browse the day's news all in one place. Users can access the news dashboard without signing in or signing up. Alternativey, they may make an account to save their favorite news sources to their dashboard for faster reference.
+
+![Dashboard](/img/dashboard.png)
+*News Dashboard*
+
+To handle authentication I used bcrypt to hash and salt passwords, JSON web tokens to verify authenticated users, and passport as authentication middleware. I used MongoDB to store my data and Mongoose to work with my data.
+
+![Favorites](/img/news-aggregator-favorites.png)
+*Favorites*
+
+Tech Stack: React, Redux, Node, Express, MongoDB
+
+[GitHub](https://github.com/cse25/news-aggregator) | January 2017
+
+---
+
 # Forcefield
 
 **Campus security solution consisting of hardware button, mobile and web apps**
@@ -38,8 +58,6 @@ My team and I decided to create a mobile application for students to share and o
 We deployed our app to an AWS EC2 instance running Ubuntu and used Amazon's S3 to store our images.  We decided to convert our images to base64 strings and store the URL returned from S3 so we could get better performance and not store large images in our database directly.
 
 In the end, we ran out of time before implementing our stretch goals but were satisfied with our final product.  It met all of our requirements for basic functionality and looked and felt polished.
-
-Screenshots coming soon!
 
 Tech Stack: Angular, Ionic, MySQL, AWS, S3
 
