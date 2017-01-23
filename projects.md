@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Projects
-subtitle: Here are some of my more recent projects.
 ---
 
 # News Aggregator
