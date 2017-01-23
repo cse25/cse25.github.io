@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+subtitle:
 ---
 
 # News Aggregator
