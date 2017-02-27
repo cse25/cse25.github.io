@@ -7,7 +7,7 @@ title: Projects
 
 **Get the latest news articles from 60 sources**
 
-I created a news aggregator as a chance to learn more about the React ecosystem and to create a simple way to browse the day's news all in one place. Users can access the news dashboard without signing in or signing up. Alternativey, they may make an account to save their favorite news sources to their dashboard for faster reference.
+I created a news aggregator as a chance to learn more about the React ecosystem and to create a simple way to browse the day's news all in one place. Users can access the news dashboard without signing in or signing up. Alternatively, they may make an account to save their favorite news sources to their dashboard for faster reference.
 
 ![Dashboard](/img/dashboard.png)
 *News Dashboard*
